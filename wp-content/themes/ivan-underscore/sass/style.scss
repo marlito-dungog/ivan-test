@@ -100,3 +100,61 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 /* Alignments
 --------------------------------------------- */
 @import "utilities/alignments";
+
+$primary-color: #932990;
+$heading-color: #440842;
+
+.wee {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1em;
+
+  @media (min-width: 480px) {
+    padding: 3em;
+  }
+
+  @media (min-width: 768px) {
+    padding: 4em;
+  }
+
+  @media (min-width: 992px) {
+    padding: 4em;
+  }
+
+  @media (min-width: 1200px) {
+    padding: 8em;
+  }
+
+  &__icon {
+    margin-bottom: 0;
+  }
+
+  &__heading {
+    margin-top: 0.2em;
+  }
+
+  &__button a {
+    align-items: center;
+    display: flex;
+
+    img {
+      margin: 0px 12px 6px 2px;
+    }
+  }
+
+  &__column-1 {
+    padding: 2em;
+    @media (max-width: 768px) {
+      padding: 0;
+    }
+  }
+
+  &__column-2 {
+    justify-content: center;
+    padding: 2em;
+    @media (max-width: 768px) {
+      padding: 0;
+    }
+  }
+}
