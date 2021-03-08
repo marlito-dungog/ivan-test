@@ -1,8 +1,8 @@
 ### Wordpress creds
 
-<p>username: ivantest </p>
+<p>username: marlitotest </p>
 password: AiRC4doL)cy43m%W&k
 
 ---
 
-DB filename: **ivan_underscore_db.sql**
+DB filename: **marlito_underscore_db.sql**
